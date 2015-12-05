@@ -1,0 +1,53 @@
+<html>
+
+<head>
+
+</head>
+<body>
+
+<div ng-app="firstapp" ng-controller="firstCtrl">
+
+	<input type="text" ng-model="descrtiption"></input>
+	<input type="text" ng-model="comment"></input>
+
+	<h1> {{ 10*100 }}</h1>
+	<h2> {{ descrtiption + comment  }} </h2>
+	<p ng-bind="descrtiption"></P>
+
+	<input type="text" ng-model="user.firstname"></input>
+	<input type="text" ng-model="user.lastname"></input>
+
+	<h1> {{ 10*100 }}</h1>
+	<h2> {{ user }} </h2>
+	<h2> {{ customer }} </h2>
+
+	<p ng-bind="user.lastname"></P>
+	<input type="text" ng-model="customer.customer"></input>	
+	<input type="text" ng-model="customer.age"></input>
+	<h2> {{ customer }} </h2>
+
+</div>
+
+<div>
+	<p ng-bind="student.name"></P>
+</div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+
+<script type="text/javascript"> 
+var app=angular.module('firstapp',[]);
+app.controller('firstCtrl',function($scope){
+	$scope.student={};
+	$scope.student.name="prashanth";
+
+	$scope.customer={
+		"customer":"abc",
+		"age":"20"
+	};
+});
+</script>
+
+
+
+</html>

@@ -1,0 +1,43 @@
+--I want to communicate with File system 
+-- Communicate with DB
+-- communicate OS
+
+
+General Best practices
+	-- Css inclides should be in head
+	-- But JavaScript inclides should be after Body
+
+Html execution will happens in Sequencial order
+
+Why AngularJs
+	-- Makes developer life simple by using Angularjs , core lib and directives and other constructives
+	-- It will help us to create Single Page Application 
+	-- Code is unit testable 
+	-- It supports Dependency Injection 
+	-- it gives us Data binding
+	-- You can create re-usable code 
+	-- Is it cross browser compliant . Angular will take care of running jacascript which compatable to in running browser
+	-- Angular is open source 
+	-- we can create rich user experienced applications
+
+JSON:
+	-- JavaScript Object Notation 
+	-- its a key , value pair
+	-- user json == {
+		"name":"prashanth",
+		"email":"abd@gmail.com"
+		"address" : {
+			"city" : "Hyd",
+			"state" : "abc"
+		}
+	}
+	-- How do I access user city --> user.address.city  -> Hyd
+
+What is JSON 
+What is Angular
+Why Angular 
+What is data binding 
+
+Interview question on Javascript 
+
+Pratice pratice pratice -- Javascript -->  
